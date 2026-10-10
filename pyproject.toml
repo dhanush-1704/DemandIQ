@@ -1,0 +1,17 @@
+[project]
+name = "demandiq"
+version = "0.1.0"
+description = "Demand forecasting and inventory optimization"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.4,<2",
+  "joblib>=1.3,<2",
+  "fastapi>=0.110,<1",
+  "uvicorn>=0.27,<1",
+  "pydantic>=2.6,<3",
+]
+
+[tool.vercel]
+entrypoint = "demandiq/api.py"
