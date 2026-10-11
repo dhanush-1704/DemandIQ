@@ -13,5 +13,3 @@ dependencies = [
   "pydantic>=2.6,<3",
 ]
 
-[tool.vercel]
-entrypoint = "demandiq.api:app"
